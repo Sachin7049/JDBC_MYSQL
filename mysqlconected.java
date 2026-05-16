@@ -3,9 +3,9 @@ import java.sql.*;
 
 public class mysqlconected {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        String url="jdbc:mysql://127.0.0.1:3306/mydatabase";
+        String url="";
         String username="root";
-        String password="Sachin@123";
+        String password="Sa43@12334543";
         String query="Select * from employes";
 
         try {
