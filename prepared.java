@@ -8,9 +8,9 @@ import java.sql.Statement;
 public class prepared {
     public static void main(String[] args) throws ClassNotFoundException {
 
-        String url = "jdbc:mysql://127.0.0.1:3306/mydatabase";
+        String url = "j";
         String username = "root";
-        String password = "Sachin@123";
+        String password = "Sa43t34hin@23ewr";
         String query = "INSERT INTO employes (id,name,job_title,salary) VALUES (?,?,?,?)";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
