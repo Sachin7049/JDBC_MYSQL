@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class INSERT {
     public static void main(String[] args) throws ClassNotFoundException {
-      String url="jdbc:mysql://127.0.0.1:3306/mydatabase";
+      String url="jdbc:mys434:3306/mydatabase";
       String username="root";
-      String password="Sachin@123";
+      String password="Sachinert@123";
       String query="INSERT into employes (id,name,job_title,salary) VALUES (3,'rahul','Backend developer','10000.00')";
 
       try {
