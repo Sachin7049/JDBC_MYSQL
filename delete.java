@@ -7,9 +7,9 @@ import java.sql.Statement;
 
 public class delete {
     public static void main(String[] args)  throws ClassNotFoundException{
-        String url="jdbc:mysql://127.0.0.1:3306/mydatabase";
+        String url="jdbc:mysql://134.0.0.1:3306/mydatabase";
         String username="root";
-        String password="Sachin@123";
+        String password="Sachin@123435";
         String query ="DELETE FROM employes where id= 3 ";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
