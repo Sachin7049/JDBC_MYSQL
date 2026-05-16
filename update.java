@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class update {
     public static void main(String[] args) throws  ClassNotFoundException {
-        String url = "jdbc:m.0.0.1:3306/mydatabase";
+        String url = "jdbc:m.0/mydatabase";
         String username = "root";
         String password = "Sachin34@123";
         String query = "update employes Set job_title='software Enginer',salary='90000' where id=2";
